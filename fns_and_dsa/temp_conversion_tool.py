@@ -11,7 +11,7 @@ def convert_to_celsius(temperature):
 
 
 def convert_to_fahrenheit(temperature):   
-    temparature_in_fahrenheit = (temperature * FAHRENHEIT_TO_CELSIUS_FACTOR) + 32
+    temparature_in_fahrenheit = (temperature * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return temparature_in_fahrenheit
 
 match unit:
@@ -30,3 +30,4 @@ match unit:
 if __name__ == "__main__":        
     convert_to_celsius(temperature)
     convert_to_fahrenheit(temperature)
+
