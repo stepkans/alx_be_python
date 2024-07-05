@@ -25,9 +25,9 @@ match unit:
             print(f"{temperature}°C is {converted_temp}°F")
 
     case _:
-        raise ValueError("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")        
+        raise ValueError("Invalid temperature. Please enter a numeric value.")
+           
 
 if __name__ == "__main__":        
     convert_to_celsius(temperature)
     convert_to_fahrenheit(temperature)
-
